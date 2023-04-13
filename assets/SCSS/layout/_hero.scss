@@ -1,0 +1,42 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  &__bgimg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cutewallpaper.org/27/bts-sumer-wallpaper-laptop/276434050.jpg");
+    filter: brightness(65%);
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+  &__article {
+    position: absolute;
+    text-align: center;
+    h1 {
+      color: #fffdc3;
+      font-size: 22rem;
+      font-family: "Fraunces", serif;
+      font-weight: 400;
+    }
+    .phar {
+      font-size: 2.5rem;
+      color: white;
+      font-family: "Fraunces", serif;
+    }
+    .button{
+        display: block;
+        margin: 30px auto;
+        width: 160px;
+        height: 50px;
+        background: rgb(255, 255, 255);
+        padding: 20px 10px;
+        border-radius: 40px;
+    }
+  }
+}
